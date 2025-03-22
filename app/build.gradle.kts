@@ -184,7 +184,7 @@ android {
 
     buildConfigField("long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L")
     buildConfigField("String", "GIT_HASH", "\"${getGitHash()}\"")
-    buildConfigField("String", "SIGNAL_URL", "\"https://chat.signal.org\"")
+    buildConfigField("String", "SIGNAL_URL", "\"https://xcroftsolution.com\"")
     buildConfigField("String", "STORAGE_URL", "\"https://storage.signal.org\"")
     buildConfigField("String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\"")
     buildConfigField("String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\"")
