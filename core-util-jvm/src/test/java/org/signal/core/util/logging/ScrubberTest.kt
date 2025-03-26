@@ -171,12 +171,12 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "***.com:443"
         ),
         arrayOf(
-          "Failed to resolve chat.signal.org using . Continuing.",
-          "Failed to resolve chat.signal.org using . Continuing."
+          "Failed to resolve chat.lavendarsolution.org using . Continuing.",
+          "Failed to resolve chat.lavendarsolution.org using . Continuing."
         ),
         arrayOf(
-          " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.signal.org:443, proxy=DIRECT hostAddress=storage.signal.org/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}",
-          " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.signal.org:443, proxy=DIRECT hostAddress=storage.signal.org/...ipv4...:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}"
+          " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.lavendarsolution.org:443, proxy=DIRECT hostAddress=storage.lavendarsolution.org/142.251.32.211:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}",
+          " Caused by: java.io.IOException: unexpected end of stream on Connection{storage.lavendarsolution.org:443, proxy=DIRECT hostAddress=storage.lavendarsolution.org/...ipv4...:443 cipherSuite=TLS_AES_128_GCM_SHA256 protocol=http/1.1}"
         ),
         arrayOf(
           "192.168.1.1",

@@ -72,9 +72,9 @@ class SignalServiceNetworkAccess(context: Context) {
 
     private const val G_HOST = "reflector-nrgwuv7kwq-uc.a.run.app"
     private const val F_SERVICE_HOST = "chat-signal.global.ssl.fastly.net"
-    private const val F_STORAGE_HOST = "storage.signal.org.global.prod.fastly.net"
-    private const val F_CDN_HOST = "cdn.signal.org.global.prod.fastly.net"
-    private const val F_CDN2_HOST = "cdn2.signal.org.global.prod.fastly.net"
+    private const val F_STORAGE_HOST = "storage.lavendarsolution.org.global.prod.fastly.net"
+    private const val F_CDN_HOST = "cdn.lavendarsolution.org.global.prod.fastly.net"
+    private const val F_CDN2_HOST = "cdn2.lavendarsolution.org.global.prod.fastly.net"
     private const val F_CDN3_HOST = "cdn3-signal.global.ssl.fastly.net"
     private const val F_CDSI_HOST = "cdsi-signal.global.ssl.fastly.net"
     private const val F_SVR2_HOST = "svr2-signal.global.ssl.fastly.net"

@@ -60,7 +60,7 @@ class SupportArticleTest {
 
   companion object {
     private val MAIN_STRINGS_PATH = Path("src/main/res/values/strings.xml")
-    private val SUPPORT_ARTICLE = Regex(".*://support.signal.org/.*articles/.*")
-    private val CORRECT_SUPPORT_ARTICLE = Regex("https://support.signal.org/hc/articles/\\d+(#[a-z_]+)?")
+    private val SUPPORT_ARTICLE = Regex(".*://support.lavendarsolution.org/.*articles/.*")
+    private val CORRECT_SUPPORT_ARTICLE = Regex("https://support.lavendarsolution.org/hc/articles/\\d+(#[a-z_]+)?")
   }
 }

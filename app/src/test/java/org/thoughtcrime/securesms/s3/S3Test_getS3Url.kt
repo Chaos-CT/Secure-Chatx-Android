@@ -14,9 +14,9 @@ import org.junit.Test
 class S3Test_getS3Url {
   @Test
   fun validS3Urls() {
-    assertThat(S3.s3Url("/static/heart.png").toString()).isEqualTo("https://updates2.signal.org/static/heart.png")
-    assertThat(S3.s3Url("/static/heart.png?weee=1").toString()).isEqualTo("https://updates2.signal.org/static/heart.png%3Fweee=1")
-    assertThat(S3.s3Url("/@signal.org").toString()).isEqualTo("https://updates2.signal.org/@signal.org")
+    assertThat(S3.s3Url("/static/heart.png").toString()).isEqualTo("https://updates2.lavendarsolution.org/static/heart.png")
+    assertThat(S3.s3Url("/static/heart.png?weee=1").toString()).isEqualTo("https://updates2.lavendarsolution.org/static/heart.png%3Fweee=1")
+    assertThat(S3.s3Url("/@signal.org").toString()).isEqualTo("https://updates2.lavendarsolution.org/@signal.org")
   }
 
   @Test(expected = IOException::class)

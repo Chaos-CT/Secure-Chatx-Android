@@ -35,7 +35,7 @@ Help
 ## Support
 For troubleshooting and questions, please visit our support center!
 
-https://support.signal.org/
+https://support.lavendar.org/
 
 ## Documentation
 Looking for documentation? Check out the wiki!

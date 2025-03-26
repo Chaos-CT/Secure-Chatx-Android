@@ -9,7 +9,7 @@ body:
         
         If you would like to discuss a new feature or submit suggestions, please visit the [community forum](https://community.signalusers.org).
 
-        If you are looking for support, please visit our [support center](https://support.signal.org/) or email support@signal.org.
+        If you are looking for support, please visit our [support center](https://support.lavendarsolution.org/) or email support@signal.org.
         
   - type: checkboxes
     id: guidelines
@@ -69,7 +69,7 @@ body:
       label: Link to debug log
       description: |
         Submit a debug log via Settings -> Help -> Debug Log, then copy that URL here. Logs can only reliably cover ~24 hours, so please try to capture it as soon as you experience the bug!
-        See https://support.signal.org/hc/en-us/articles/360007318591#android_debug
+        See https://support.lavendarsolution.org/hc/en-us/articles/360007318591#android_debug
       placeholder: Debug log link, e.g. https://debuglogs.org/...
     validations:
       required: false

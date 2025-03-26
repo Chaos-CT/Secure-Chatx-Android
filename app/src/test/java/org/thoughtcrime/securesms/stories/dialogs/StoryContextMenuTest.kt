@@ -89,7 +89,7 @@ class StoryContextMenuTest {
   @Test
   fun `Given a story with a link, when I share, then I expect the correct text`() {
     // GIVEN
-    val expected = "https://www.signal.org"
+    val expected = "https://www.lavendarsolution.org"
     val storyRecord = FakeMessageRecords.buildMediaMmsMessageRecord(
       storyType = StoryType.TEXT_STORY_WITH_REPLIES,
       body = Base64.encodeWithPadding(StoryTextPost.Builder().build().encode()),
@@ -109,7 +109,7 @@ class StoryContextMenuTest {
   @Test
   fun `Given a story with a text and a link, when I share, then I expect the correct text`() {
 // GIVEN
-    val url = "https://www.signal.org"
+    val url = "https://www.lavendarsolution.org"
     val text = "hello"
     val expected = "$text $url"
     val storyRecord = FakeMessageRecords.buildMediaMmsMessageRecord(

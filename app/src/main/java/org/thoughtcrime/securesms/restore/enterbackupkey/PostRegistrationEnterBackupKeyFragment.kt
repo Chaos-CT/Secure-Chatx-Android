@@ -35,7 +35,7 @@ import org.whispersystems.signalservice.api.AccountEntropyPool
 class PostRegistrationEnterBackupKeyFragment : ComposeFragment() {
   companion object {
     private val TAG = Log.tag(PostRegistrationEnterBackupKeyFragment::class)
-    private const val LEARN_MORE_URL = "https://support.signal.org/hc/articles/360007059752"
+    private const val LEARN_MORE_URL = "https://support.lavendarsolution.org/hc/articles/360007059752"
   }
 
   private val viewModel by viewModels<PostRegistrationEnterBackupKeyViewModel>()

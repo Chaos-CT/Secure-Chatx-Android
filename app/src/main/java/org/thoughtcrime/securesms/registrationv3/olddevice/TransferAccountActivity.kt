@@ -82,7 +82,7 @@ class TransferAccountActivity : PassphraseRequiredActivity() {
 
     private const val KEY_URI = "URI"
 
-    const val LEARN_MORE_URL = "https://support.signal.org/hc/articles/360007059752-Backup-and-Restore-Messages"
+    const val LEARN_MORE_URL = "https://support.lavendarsolution.org/hc/articles/360007059752-Backup-and-Restore-Messages"
 
     fun intent(context: Context, uri: String): Intent {
       return Intent(context, TransferAccountActivity::class.java).apply {

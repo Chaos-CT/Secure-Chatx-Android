@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toStartOf="@id/chevron"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/visit_link"
-        tools:text="https://www.signal.org/blog/entry/20/20/20/20/20" />
+        tools:text="https://www.lavendarsolution.org/blog/entry/20/20/20/20/20" />
 
     <ImageView
         android:id="@+id/chevron"

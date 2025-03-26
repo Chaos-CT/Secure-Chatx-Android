@@ -50,7 +50,7 @@ class LinkUtilTest_isValidPreviewUrl(private val input: String, private val outp
         arrayOf("https://localhost", false),
         arrayOf("https://cool.test", false),
         arrayOf("https://cool.invalid.com", true),
-        arrayOf("https://cool.localhost.signal.org", true),
+        arrayOf("https://cool.localhost.lavendarsolution.org", true),
         arrayOf("https://cool.test.blarg.gov", true),
         arrayOf("https://github.com/signalapp/Signal-Android/compare/v6.23.2...v6.23.3", true)
       )

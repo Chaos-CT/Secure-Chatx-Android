@@ -108,15 +108,15 @@ task resolveStaticIps {
     doLast {
         def staticIpResolver = new StaticIpResolver()
         new File(projectDir, "static-ips.gradle.kts").text = """
-            rootProject.extra["service_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("chat.signal.org")}\"\"\"
-            rootProject.extra["storage_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("storage.signal.org")}\"\"\"
-            rootProject.extra["cdn_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn.signal.org")}\"\"\"
-            rootProject.extra["cdn2_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn2.signal.org")}\"\"\"
-            rootProject.extra["cdn3_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn3.signal.org")}\"\"\"
-            rootProject.extra["sfu_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("sfu.voip.signal.org")}\"\"\"
-            rootProject.extra["content_proxy_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("contentproxy.signal.org")}\"\"\"
-            rootProject.extra["svr2_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("svr2.signal.org")}\"\"\"
-            rootProject.extra["cdsi_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdsi.signal.org")}\"\"\"
+            rootProject.extra["service_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("chat.lavendarsolution.org")}\"\"\"
+            rootProject.extra["storage_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("storage.lavendarsolution.org")}\"\"\"
+            rootProject.extra["cdn_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn.lavendarsolution.org")}\"\"\"
+            rootProject.extra["cdn2_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn2.lavendarsolution.org")}\"\"\"
+            rootProject.extra["cdn3_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdn3.lavendarsolution.org")}\"\"\"
+            rootProject.extra["sfu_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("sfu.voip.lavendarsolution.org")}\"\"\"
+            rootProject.extra["content_proxy_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("contentproxy.lavendarsolution.org")}\"\"\"
+            rootProject.extra["svr2_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("svr2.lavendarsolution.org")}\"\"\"
+            rootProject.extra["cdsi_ips"] = \"\"\"${staticIpResolver.resolveToBuildConfig("cdsi.lavendarsolution.org")}\"\"\"
         """.stripIndent().trim() + "\n"
     }
 }

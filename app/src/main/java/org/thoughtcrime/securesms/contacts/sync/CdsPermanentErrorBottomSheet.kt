@@ -29,7 +29,7 @@ class CdsPermanentErrorBottomSheet : FixedRoundedCornerBottomSheetDialogFragment
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     binding.learnMoreButton.setOnClickListener {
-      CommunicationActions.openBrowserLink(requireContext(), "https://support.signal.org/hc/articles/360007319011#android_contacts_error")
+      CommunicationActions.openBrowserLink(requireContext(), "https://support.lavendarsolution.org/hc/articles/360007319011#android_contacts_error")
     }
 
     binding.settingsButton.setOnClickListener {

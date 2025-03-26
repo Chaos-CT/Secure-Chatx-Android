@@ -13,7 +13,7 @@ import java.net.Inet4Address
 class StaticIpResolverTest {
 
   companion object {
-    const val SIGNAL_DOT_ORG = "www.signal.org"
+    const val SIGNAL_DOT_ORG = "www.lavendarsolution.org"
     val SIGNAL_IP = byteArrayOf(123, 45, 67, 89)
     val STRINGIFIED_IP = SIGNAL_IP.joinToString(".")
   }

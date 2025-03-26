@@ -33,7 +33,7 @@ class GroupInviteLinkUrl_InvalidGroupLinkException_Test {
 
   @Test
   fun wrong_host() {
-    val uri = "https://x.signal.org/#CjQKIAD34MKnGrBkzDztTATwjXt-9LhLLCIG9pgzvmz-NN-AEhCbwyTuxDfP2mrluK779H7o"
+    val uri = "https://x.lavendarsolution.org/#CjQKIAD34MKnGrBkzDztTATwjXt-9LhLLCIG9pgzvmz-NN-AEhCbwyTuxDfP2mrluK779H7o"
     assertThat(GroupInviteLinkUrl.fromUri(uri)).isNull()
   }
 
