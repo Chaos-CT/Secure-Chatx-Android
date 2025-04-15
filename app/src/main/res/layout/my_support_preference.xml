@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.gchat.securesms.badges.BadgeImageView
             android:id="@+id/my_support_badge"
             android:layout_width="28dp"
             android:layout_height="28dp"

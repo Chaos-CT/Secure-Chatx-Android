@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<org.thoughtcrime.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.components.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,7 +9,7 @@
     android:layout_marginEnd="12dp"
     app:square_height="true">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.gchat.securesms.components.ThumbnailView
         android:id="@+id/attachment_keyboard_item_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,4 +48,4 @@
         app:tint="@color/signal_colorOnCustom"
         app:srcCompat="@drawable/triangle_right" />
 
-</org.thoughtcrime.securesms.components.SquareFrameLayout>
+</org.gchat.securesms.components.SquareFrameLayout>

@@ -76,7 +76,7 @@ ktlint {
 }
 
 android {
-  namespace = "org.thoughtcrime.securesms"
+  namespace = "org.gchat.securesms"
 
   buildToolsVersion = signalBuildToolsVersion
   compileSdkVersion = signalCompileSdkVersion
@@ -192,7 +192,7 @@ android {
     buildConfigField("String", "SIGNAL_CDSI_URL", "\"https://cdsi.lavendarsolution.org\"")
     buildConfigField("String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.lavendarsolution.org\"")
     buildConfigField("String", "SIGNAL_SVR2_URL", "\"https://svr2.lavendarsolution.org\"")
-    buildConfigField("String", "SIGNAL_SFU_URL", "\"https://sfu.voip.lavendarsolution.org\"")
+    buildConfigField("String", "SIGNAL_SFU_URL", "\"https://sfu.lavendarsolution.org\"")
     buildConfigField("String", "SIGNAL_STAGING_SFU_URL", "\"https://sfu.staging.voip.lavendarsolution.org\"")
     buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_NAMES", "new String[]{\"Test\", \"Staging\", \"Development\"}")
     buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{\"https://sfu.test.voip.lavendarsolution.org\", \"https://sfu.staging.voip.lavendarsolution.org\", \"https://sfu.staging.test.voip.lavendarsolution.org\"}")
@@ -245,7 +245,7 @@ android {
       }
     }
 
-    testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
+    testInstrumentationRunner = "org.gchat.securesms.testing.SignalTestRunner"
     testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 

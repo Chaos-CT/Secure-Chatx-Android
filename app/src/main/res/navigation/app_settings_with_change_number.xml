@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/appSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.AppSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.AppSettingsFragment"
         android:label="app_settings_fragment"
         tools:layout="@layout/dsl_settings_fragment">
         <action
@@ -158,13 +158,13 @@
 
     <activity
         android:id="@+id/manageProfileActivity"
-        android:name="org.thoughtcrime.securesms.profiles.manage.EditProfileActivity"
+        android:name="org.gchat.securesms.profiles.manage.EditProfileActivity"
         android:label="manage_profile_activity" />
 
     <!-- region Account Settings and subpages -->
     <fragment
         android:id="@+id/accountSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.account.AccountSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.account.AccountSettingsFragment"
         android:label="account_settings_fragment"
         tools:layout="@layout/dsl_settings_fragment">
         <action
@@ -208,23 +208,23 @@
 
     <fragment
         android:id="@+id/advancedPinSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.wrapped.WrappedAdvancedPinPreferenceFragment"
+        android:name="org.gchat.securesms.components.settings.app.wrapped.WrappedAdvancedPinPreferenceFragment"
         android:label="advanced_pin_settings_fragment" />
 
     <fragment
         android:id="@+id/deleteAccountFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.wrapped.WrappedDeleteAccountFragment"
+        android:name="org.gchat.securesms.components.settings.app.wrapped.WrappedDeleteAccountFragment"
         android:label="delete_account_fragment"
         tools:layout="@layout/delete_account_fragment" />
 
     <fragment
         android:id="@+id/exportAccountDataFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.account.export.ExportAccountDataFragment"
+        android:name="org.gchat.securesms.components.settings.app.account.export.ExportAccountDataFragment"
         android:label="export_account_data_fragment" />
 
     <activity
         android:id="@+id/oldDeviceTransferActivity"
-        android:name="org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity"
+        android:name="org.gchat.securesms.devicetransfer.olddevice.OldDeviceTransferActivity"
         android:label="old_device_transfer_Activity"
         tools:layout="@layout/old_device_transfer_activity" />
 
@@ -235,7 +235,7 @@
     <!-- Linked Devices -->
     <fragment
         android:id="@+id/linkDeviceFragment"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceFragment"
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceFragment"
         android:label="link_device_fragment">
         <action
             android:id="@+id/action_linkDeviceFragment_to_addLinkDeviceFragment"
@@ -263,21 +263,21 @@
     </fragment>
     <dialog
         android:id="@+id/linkDeviceFinishedSheet"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceFinishedSheet" />
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceFinishedSheet" />
     <dialog
         android:id="@+id/linkDeviceLearnMoreBottomSheet"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceLearnMoreBottomSheetFragment" />
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceLearnMoreBottomSheetFragment" />
     <dialog
         android:id="@+id/linkDeviceEducationSheet"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceAuthEducationSheet" />
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceAuthEducationSheet" />
 
     <fragment
         android:id="@+id/editDeviceNameFragment"
-        android:name="org.thoughtcrime.securesms.linkdevice.EditDeviceNameFragment" />
+        android:name="org.gchat.securesms.linkdevice.EditDeviceNameFragment" />
 
     <fragment
         android:id="@+id/addLinkDeviceFragment"
-        android:name="org.thoughtcrime.securesms.linkdevice.AddLinkDeviceFragment"
+        android:name="org.gchat.securesms.linkdevice.AddLinkDeviceFragment"
         android:label="link_device_add_fragment">
         <action
             android:id="@+id/action_addLinkDeviceFragment_to_linkDeviceIntroBottomSheet"
@@ -288,21 +288,21 @@
     </fragment>
     <dialog
         android:id="@+id/linkDeviceIntroBottomSheet"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceIntroBottomSheet" />
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceIntroBottomSheet" />
     <dialog
         android:id="@+id/linkDeviceSyncBottomSheet"
-        android:name="org.thoughtcrime.securesms.linkdevice.LinkDeviceSyncBottomSheet" />
+        android:name="org.gchat.securesms.linkdevice.LinkDeviceSyncBottomSheet" />
 
     <!-- Payments -->
     <activity
         android:id="@+id/paymentsActivity"
-        android:name="org.thoughtcrime.securesms.payments.preferences.PaymentsActivity"
+        android:name="org.gchat.securesms.payments.preferences.PaymentsActivity"
         android:label="payments_activity" />
 
     <!-- region Appearance settings and Subpages -->
     <fragment
         android:id="@+id/appearanceSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.appearance.AppearanceSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.appearance.AppearanceSettingsFragment"
         android:label="appearance_settings_fragment"
         tools:layout="@layout/dsl_settings_fragment">
         <action
@@ -324,14 +324,14 @@
 
     <activity
         android:id="@+id/wallpaperActivity"
-        android:name="org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity"
+        android:name="org.gchat.securesms.wallpaper.ChatWallpaperActivity"
         android:label="wallpaper_activity" />
 
     <!-- App Icon settings and Subpages -->
 
     <fragment
         android:id="@+id/appIconSelectionFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.appearance.appicon.AppIconSelectionFragment"
+        android:name="org.gchat.securesms.components.settings.app.appearance.appicon.AppIconSelectionFragment"
         android:label="@string/preferences__app_icon">
         <action
             android:id="@+id/action_appIconSelectionFragment_to_appIconTutorialFragment"
@@ -343,7 +343,7 @@
     </fragment>
     <fragment
         android:id="@+id/appIconTutorialFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.appearance.appicon.AppIconTutorialFragment"
+        android:name="org.gchat.securesms.components.settings.app.appearance.appicon.AppIconTutorialFragment"
         android:label="@string/preferences__app_icon" />
 
     <!-- endregion -->
@@ -352,7 +352,7 @@
 
     <fragment
         android:id="@+id/chatsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.chats.ChatsSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.chats.ChatsSettingsFragment"
         android:label="chats_settings_fragment"
         tools:layout="@layout/dsl_settings_fragment">
         <action
@@ -387,19 +387,19 @@
 
     <fragment
         android:id="@+id/backupsPreferenceFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.wrapped.WrappedBackupsPreferenceFragment"
+        android:name="org.gchat.securesms.components.settings.app.wrapped.WrappedBackupsPreferenceFragment"
         android:label="backups_preference_fragment"
         tools:layout="@layout/fragment_backups" />
 
     <fragment
         android:id="@+id/editReactionsFragment"
-        android:name="org.thoughtcrime.securesms.reactions.edit.EditReactionsFragment"
+        android:name="org.gchat.securesms.reactions.edit.EditReactionsFragment"
         android:label="edit_reactions_fragment"
         tools:layout="@layout/edit_reactions_fragment" />
 
     <fragment
         android:id="@+id/chatFoldersFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersFragment"
+        android:name="org.gchat.securesms.components.settings.app.chats.folders.ChatFoldersFragment"
         android:label="chat_folders_fragment">
         <action
             android:id="@+id/action_chatFoldersFragment_to_createFoldersFragment"
@@ -415,11 +415,11 @@
 
     <dialog
         android:id="@+id/chatFoldersEducationSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersEducationSheet"/>
+        android:name="org.gchat.securesms.components.settings.app.chats.folders.ChatFoldersEducationSheet"/>
 
     <fragment
         android:id="@+id/createFoldersFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.chats.folders.CreateFoldersFragment"
+        android:name="org.gchat.securesms.components.settings.app.chats.folders.CreateFoldersFragment"
         android:label="create_folders_fragment">
 
         <argument
@@ -450,7 +450,7 @@
 
     <fragment
         android:id="@+id/chooseChatsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.chats.folders.ChooseChatsFragment"
+        android:name="org.gchat.securesms.components.settings.app.chats.folders.ChooseChatsFragment"
         android:label="choose_chats_fragment" />
 
     <!-- endregion -->
@@ -458,7 +458,7 @@
     <!-- Notifications -->
     <fragment
         android:id="@+id/notificationsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.NotificationsSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.NotificationsSettingsFragment"
         android:label="notifications_settings_fragment">
 
         <action
@@ -479,7 +479,7 @@
 
     <fragment
         android:id="@+id/dataAndStorageSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.data.DataAndStorageSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.data.DataAndStorageSettingsFragment"
         android:label="data_and_storage_settings_fragment">
         <action
             android:id="@+id/action_dataAndStorageSettingsFragment_to_storagePreferenceFragment"
@@ -499,12 +499,12 @@
 
     <fragment
         android:id="@+id/storagePreferenceFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.storage.ManageStorageSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.storage.ManageStorageSettingsFragment"
         android:label="storage_preference_fragment" />
 
     <fragment
         android:id="@+id/editProxyFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.wrapped.WrappedEditProxyFragment"
+        android:name="org.gchat.securesms.components.settings.app.wrapped.WrappedEditProxyFragment"
         android:label="edit_proxy_fragment" />
 
     <!-- endregion -->
@@ -512,7 +512,7 @@
     <!-- region Help -->
     <fragment
         android:id="@+id/helpSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.help.HelpSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.help.HelpSettingsFragment"
         android:label="help_settings_fragment">
         <action
             android:id="@+id/action_helpSettingsFragment_to_helpFragment"
@@ -539,7 +539,7 @@
 
     <fragment
         android:id="@+id/helpFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.wrapped.WrappedHelpFragment"
+        android:name="org.gchat.securesms.components.settings.app.wrapped.WrappedHelpFragment"
         android:label="help_fragment">
 
         <argument
@@ -551,18 +551,18 @@
 
     <fragment
         android:id="@+id/licenseFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.help.LicenseFragment"
+        android:name="org.gchat.securesms.components.settings.app.help.LicenseFragment"
         android:label="license_fragment" />
 
     <activity
         android:id="@+id/submitDebugLogActivity"
-        android:name="org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity"
+        android:name="org.gchat.securesms.logsubmit.SubmitDebugLogActivity"
         android:label="submit_debug_log_activity" />
     <!-- endregion -->
 
     <activity
         android:id="@+id/inviteActivity"
-        android:name="org.thoughtcrime.securesms.InviteActivity"
+        android:name="org.gchat.securesms.InviteActivity"
         android:label="invite_activity"
         tools:layout="@layout/invite_activity" />
 
@@ -697,7 +697,7 @@
         <argument
             android:name="mode"
             android:defaultValue="RECOVERY"
-            app:argType="org.thoughtcrime.securesms.profiles.manage.UsernameEditMode" />
+            app:argType="org.gchat.securesms.profiles.manage.UsernameEditMode" />
     </action>
 
     <action
@@ -746,7 +746,7 @@
 
     <fragment
         android:id="@+id/internalSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.InternalSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.InternalSettingsFragment"
         android:label="internal_settings_fragment">
         <action
             android:id="@+id/action_internalSettingsFragment_to_donorErrorConfigurationFragment"
@@ -782,37 +782,37 @@
 
     <fragment
         android:id="@+id/terminalDonationConfigurationFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.InternalTerminalDonationConfigurationFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.InternalTerminalDonationConfigurationFragment"
         android:label="terminal_donation_configuration_fragment" />
 
     <fragment
         android:id="@+id/oneTimeDonationConfigurationFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.InternalPendingOneTimeDonationConfigurationFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.InternalPendingOneTimeDonationConfigurationFragment"
         android:label="one_time_donation_configuration_fragment" />
 
     <fragment
         android:id="@+id/donorErrorConfigurationFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.donor.InternalDonorErrorConfigurationFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.donor.InternalDonorErrorConfigurationFragment"
         android:label="donor_error_configuration_fragment" />
 
     <fragment
         android:id="@+id/storyDialogsLauncherFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.InternalStoryDialogLauncherFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.InternalStoryDialogLauncherFragment"
         android:label="story_dialogs_launcher_fragment" />
 
     <fragment
         android:id="@+id/internalSearchFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.search.InternalSearchFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.search.InternalSearchFragment"
         android:label="internal_search_fragment" />
 
     <fragment
         android:id="@+id/internalSvrPlaygroundFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.svr.InternalSvrPlaygroundFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.svr.InternalSvrPlaygroundFragment"
         android:label="internal_svr_playground_fragment" />
 
     <fragment
         android:id="@+id/internalConversationSpringboardFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.conversation.springboard.InternalConversationSpringboardFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.conversation.springboard.InternalConversationSpringboardFragment"
         android:label="internal_conversation_springboard_fragment">
 
         <action
@@ -822,22 +822,22 @@
 
     <fragment
         android:id="@+id/internalConversationTestFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.conversation.test.InternalConversationTestFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.conversation.test.InternalConversationTestFragment"
         android:label="internal_conversation_test_fragment" />
 
     <fragment
         android:id="@+id/internalBackupPlaygroundFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.backup.InternalBackupPlaygroundFragment"
         android:label="internal_backup_playground_fragment" />
 
     <fragment
         android:id="@+id/internalStorageServicePlaygroundFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundFragment"
         android:label="internal_storage_service_playground_fragment" />
 
     <fragment
         android:id="@+id/internalSqlitePlaygroundFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.internal.sqlite.InternalSqlitePlaygroundFragment"
+        android:name="org.gchat.securesms.components.settings.app.internal.sqlite.InternalSqlitePlaygroundFragment"
         android:label="internal_sqlite_playground_fragment" />
 
     <!-- endregion -->
@@ -846,13 +846,13 @@
 
     <fragment
         android:id="@+id/appUpdatesFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.updates.AppUpdatesSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.updates.AppUpdatesSettingsFragment"
         android:label="app_update_fragment" />
 
     <!-- Subscriptions -->
     <fragment
         android:id="@+id/manageDonationsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.manage.ManageDonationsFragment"
+        android:name="org.gchat.securesms.components.settings.app.subscription.manage.ManageDonationsFragment"
         android:label="manage_donations_fragment"
         tools:layout="@layout/dsl_settings_fragment">
         <action
@@ -880,7 +880,7 @@
 
     <fragment
         android:id="@+id/donationReceiptListFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list.DonationReceiptListFragment"
+        android:name="org.gchat.securesms.components.settings.app.subscription.receipts.list.DonationReceiptListFragment"
         android:label="donation_receipt_list_fragment"
         tools:layout="@layout/donation_receipt_list_fragment">
         <action
@@ -894,7 +894,7 @@
 
     <fragment
         android:id="@+id/donationReceiptDetailFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.receipts.detail.DonationReceiptDetailFragment"
+        android:name="org.gchat.securesms.components.settings.app.subscription.receipts.detail.DonationReceiptDetailFragment"
         android:label="donation_receipt_detail_fragment"
         tools:layout="@layout/donation_receipt_detail_fragment">
 
@@ -905,7 +905,7 @@
 
     <dialog
         android:id="@+id/subscribeLearnMoreBottomSheetDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
+        android:name="org.gchat.securesms.components.settings.app.subscription.subscribe.SubscribeLearnMoreBottomSheetDialogFragment"
         android:label="subscribe_learn_more_bottom_sheet_dialog"
         tools:layout="@layout/subscribe_learn_more_bottom_sheet_dialog_fragment" />
 
@@ -916,7 +916,7 @@
     <!-- Notification Profiles -->
     <fragment
         android:id="@+id/notificationProfilesFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.NotificationProfilesFragment"
         tools:layout="@layout/notification_profiles_empty">
 
         <action
@@ -938,7 +938,7 @@
 
     <fragment
         android:id="@+id/editNotificationProfileFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.EditNotificationProfileFragment"
         tools:layout="@layout/fragment_edit_notification_profile">
 
         <argument
@@ -960,7 +960,7 @@
 
     <fragment
         android:id="@+id/addAllowedMembersFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.AddAllowedMembersFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.AddAllowedMembersFragment"
         tools:layout="@layout/fragment_add_allowed_members">
 
         <argument
@@ -987,7 +987,7 @@
 
     <fragment
         android:id="@+id/selectRecipientsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.SelectRecipientsFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.SelectRecipientsFragment"
         tools:layout="@layout/fragment_select_recipients_fragment">
 
         <argument
@@ -997,14 +997,14 @@
         <argument
             android:name="currentSelection"
             android:defaultValue="@null"
-            app:argType="org.thoughtcrime.securesms.recipients.RecipientId[]"
+            app:argType="org.gchat.securesms.recipients.RecipientId[]"
             app:nullable="true" />
 
     </fragment>
 
     <fragment
         android:id="@+id/notificationProfileDetailsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfileDetailsFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.NotificationProfileDetailsFragment"
         tools:layout="@layout/dsl_settings_fragment">
 
         <argument
@@ -1039,7 +1039,7 @@
 
     <fragment
         android:id="@+id/editNotificationProfileScheduleFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragment"
         tools:layout="@layout/fragment_edit_notification_profile_schedule">
 
         <argument
@@ -1064,7 +1064,7 @@
 
     <fragment
         android:id="@+id/notificationProfileCreatedFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfileCreatedFragment"
+        android:name="org.gchat.securesms.components.settings.app.notifications.profiles.NotificationProfileCreatedFragment"
         tools:layout="@layout/fragment_notification_profile_created">
 
         <argument
@@ -1085,18 +1085,18 @@
 
     <fragment
         android:id="@+id/createUsernameFragment"
-        android:name="org.thoughtcrime.securesms.profiles.manage.UsernameEditFragment"
+        android:name="org.gchat.securesms.profiles.manage.UsernameEditFragment"
         tools:layout="@layout/username_edit_fragment">
 
         <argument
             android:name="mode"
             android:defaultValue="NORMAL"
-            app:argType="org.thoughtcrime.securesms.profiles.manage.UsernameEditMode" />
+            app:argType="org.gchat.securesms.profiles.manage.UsernameEditMode" />
     </fragment>
 
     <fragment
         android:id="@+id/backupsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.backups.BackupsSettingsFragment">
+        android:name="org.gchat.securesms.components.settings.app.backups.BackupsSettingsFragment">
 
         <action
             android:id="@+id/action_backupsSettingsFragment_to_backupsPreferenceFragment"
@@ -1118,7 +1118,7 @@
 
     <fragment
         android:id="@+id/remoteBackupsSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.backups.remote.RemoteBackupsSettingsFragment">
+        android:name="org.gchat.securesms.components.settings.app.backups.remote.RemoteBackupsSettingsFragment">
 
         <action
             android:id="@+id/action_remoteBackupsSettingsFragment_to_backupKeyDisplayFragment"
@@ -1136,7 +1136,7 @@
 
     <fragment
         android:id="@+id/backupKeyDisplayFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.backups.remote.BackupKeyDisplayFragment" />
+        android:name="org.gchat.securesms.components.settings.app.backups.remote.BackupKeyDisplayFragment" />
 
     <include app:graph="@navigation/username_link_settings" />
     <include app:graph="@navigation/story_privacy_settings" />

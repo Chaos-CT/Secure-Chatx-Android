@@ -51,7 +51,7 @@
                 app:layout_constraintTop_toTopOf="@+id/manage_profile_avatar_background"
                 app:srcCompat="@drawable/ic_profile_outline_40" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.gchat.securesms.components.emoji.EmojiTextView
                 android:id="@+id/manage_profile_avatar_initials"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -76,7 +76,7 @@
                 app:layout_constraintStart_toStartOf="@+id/manage_profile_avatar_background"
                 app:layout_constraintTop_toTopOf="@+id/manage_profile_avatar_background" />
 
-            <org.thoughtcrime.securesms.badges.BadgeImageView
+            <org.gchat.securesms.badges.BadgeImageView
                 android:id="@+id/manage_profile_badge"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
@@ -123,7 +123,7 @@
                     app:srcCompat="@drawable/symbol_person_24"
                     app:tint="@color/signal_text_primary" />
 
-                <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+                <org.gchat.securesms.components.emoji.EmojiTextView
                     android:id="@+id/manage_profile_name"
                     style="@style/Signal.Text.Body"
                     android:layout_width="0dp"
@@ -160,7 +160,7 @@
                     app:srcCompat="@drawable/symbol_at_24"
                     app:tint="@color/signal_text_primary" />
 
-                <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+                <org.gchat.securesms.components.emoji.EmojiTextView
                     android:id="@+id/manage_profile_username"
                     style="@style/Signal.Text.Body"
                     android:layout_width="0dp"
@@ -208,7 +208,7 @@
                     app:srcCompat="@drawable/symbol_qrcode_24"
                     app:tint="@color/signal_text_primary" />
 
-                <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+                <org.gchat.securesms.components.emoji.EmojiTextView
                     android:id="@+id/username_link_text"
                     style="@style/Signal.Text.Body"
                     android:layout_width="0dp"
@@ -258,7 +258,7 @@
                     app:srcCompat="@drawable/symbol_edit_24"
                     app:tint="@color/signal_text_primary" />
 
-                <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+                <org.gchat.securesms.components.emoji.EmojiTextView
                     android:id="@+id/manage_profile_about"
                     style="@style/Signal.Text.Body"
                     android:layout_width="0dp"
@@ -295,7 +295,7 @@
                     app:srcCompat="@drawable/symbol_badge_multi_24"
                     app:tint="@color/signal_text_primary" />
 
-                <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+                <org.gchat.securesms.components.emoji.EmojiTextView
                     android:id="@+id/manage_profile_badges"
                     style="@style/Signal.Text.Body"
                     android:layout_width="0dp"
@@ -320,7 +320,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/group_description_text" />
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <org.gchat.securesms.util.views.LearnMoreTextView
                 android:id="@+id/group_description_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -450,7 +450,7 @@
 
     </ScrollView>
 
-    <org.thoughtcrime.securesms.components.ProgressCard
+    <org.gchat.securesms.components.ProgressCard
         android:id="@+id/progress_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -12,7 +12,7 @@
     tools:background="#EBEAE8"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:parentTag="org.thoughtcrime.securesms.components.verify.SafetyNumberQrView">
+    tools:parentTag="org.gchat.securesms.components.verify.SafetyNumberQrView">
 
     <LinearLayout
         android:id="@+id/qr_code_container"
@@ -52,7 +52,7 @@
                 tools:src="@drawable/ic_about_mc_80"
                 tools:visibility="visible" />
 
-            <org.thoughtcrime.securesms.components.SquareImageView
+            <org.gchat.securesms.components.SquareImageView
                 android:id="@+id/qr_verified"
                 android:layout_width="80dp"
                 android:layout_height="80dp"

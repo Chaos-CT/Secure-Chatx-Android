@@ -2,7 +2,7 @@
   ~ Copyright 2023 Signal Messenger, LLC
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
-<org.thoughtcrime.securesms.conversation.ConversationHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.conversation.ConversationHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"

@@ -212,7 +212,7 @@ public class PushServiceSocket {
   private static final String SENDER_CERTIFICATE_PATH         = "/v1/certificate/delivery";
   private static final String SENDER_CERTIFICATE_NO_E164_PATH = "/v1/certificate/delivery?includeE164=false";
 
-  private static final String ATTACHMENT_KEY_DOWNLOAD_PATH   = "attachments/%s";
+  private static final String ATTACHMENT_KEY_DOWNLOAD_PATH   = "bucket-chatx/%s";
   private static final String ATTACHMENT_ID_DOWNLOAD_PATH    = "attachments/%d";
   private static final String AVATAR_UPLOAD_PATH             = "";
 

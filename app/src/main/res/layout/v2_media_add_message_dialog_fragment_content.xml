@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@id/add_a_message_input"
         app:layout_constraintVertical_bias="0.0" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+    <org.gchat.securesms.components.emoji.EmojiToggle
         android:id="@+id/emoji_toggle"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/conversation_compose_height"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:tint="@color/signal_colorOnSurface" />
 
-    <org.thoughtcrime.securesms.components.ComposeText
+    <org.gchat.securesms.components.ComposeText
         android:id="@+id/add_a_message_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

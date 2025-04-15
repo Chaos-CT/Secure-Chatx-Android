@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationTitleView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.conversation.ConversationTitleView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/conversation_title_view"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <org.thoughtcrime.securesms.avatar.view.AvatarView
+        <org.gchat.securesms.avatar.view.AvatarView
             android:id="@+id/contact_photo_image"
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -31,7 +31,7 @@
             android:foreground="@drawable/contact_photo_background"
             app:fallbackImageSize="small" />
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.gchat.securesms.badges.BadgeImageView
             android:id="@+id/badge"
             android:layout_width="16dp"
             android:layout_height="16dp"
@@ -42,7 +42,7 @@
             app:badge_size="small" />
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.gchat.securesms.components.FromTextView
         android:id="@+id/title"
         style="@style/Signal.Text.TitleMedium"
         android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
             android:textColor="@color/signal_colorOnSurfaceVariant"
             android:textDirection="ltr" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/subtitle"
             style="@style/Signal.Text.BodySmall"
             android:layout_width="wrap_content"
@@ -118,4 +118,4 @@
 
         </LinearLayout>
 
-</org.thoughtcrime.securesms.conversation.ConversationTitleView>
+</org.gchat.securesms.conversation.ConversationTitleView>

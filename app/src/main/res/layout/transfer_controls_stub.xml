@@ -4,7 +4,7 @@
   ~ SPDX-License-Identifier: AGPL-3.0-only
   -->
 
-<org.thoughtcrime.securesms.components.transfercontrols.TransferControlView xmlns:tools="http://schemas.android.com/tools"
+<org.gchat.securesms.components.transfercontrols.TransferControlView xmlns:tools="http://schemas.android.com/tools"
     tools:viewBindingIgnore="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/transfer_controls"

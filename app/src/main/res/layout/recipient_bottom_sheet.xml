@@ -23,7 +23,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
 
-        <org.thoughtcrime.securesms.avatar.view.AvatarView
+        <org.gchat.securesms.avatar.view.AvatarView
             android:id="@+id/rbs_recipient_avatar"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -34,7 +34,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/handle" />
 
-        <org.thoughtcrime.securesms.badges.BadgeImageView
+        <org.gchat.securesms.badges.BadgeImageView
             android:id="@+id/rbs_badge"
             android:layout_width="36dp"
             android:layout_height="36dp"
@@ -99,7 +99,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/rbs_full_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
             app:layout_constraintTop_toBottomOf="@id/rbs_recipient_avatar"
             tools:text="Gwen Stacy" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/rbs_about"
             style="@style/Signal.Text.BodyLarge"
             android:layout_width="match_parent"

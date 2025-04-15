@@ -77,7 +77,7 @@
         <item name="android:elevation" tools:ignore="NewApi">0dp</item>
         <item name="android:textColor">@color/signal_button_secondary_text_selector</item>
         <item name="background">@color/signal_background_tertiary</item>
-        <item name="rippleColor">@color/core_ultramarine</item>
+        <item name="rippleColor">@color/core_green_accent</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Signal.Circle</item>
     </style>
 

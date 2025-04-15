@@ -55,8 +55,8 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "Not a Japanese number 1234508011112222"
         ),
         arrayOf(
-          "An avatar filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/%2B447700900099",
-          "An avatar filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/E164:<3106a>"
+          "An avatar filename: file:///data/user/0/org.gchat.securesms/files/avatars/%2B447700900099",
+          "An avatar filename: file:///data/user/0/org.gchat.securesms/files/avatars/E164:<3106a>"
         ),
         arrayOf(
           "Multiple numbers +447700900001 +447700900002",
@@ -115,8 +115,8 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "A email with multiple parts before the @ d...@... and a multipart domain"
         ),
         arrayOf(
-          "An avatar email filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/abc@signal.org",
-          "An avatar email filename: file:///data/user/0/org.thoughtcrime.securesms/files/avatars/a...@..."
+          "An avatar email filename: file:///data/user/0/org.gchat.securesms/files/avatars/abc@signal.org",
+          "An avatar email filename: file:///data/user/0/org.gchat.securesms/files/avatars/a...@..."
         ),
         arrayOf(
           "An email and a number abc@def.com +155556789012345",

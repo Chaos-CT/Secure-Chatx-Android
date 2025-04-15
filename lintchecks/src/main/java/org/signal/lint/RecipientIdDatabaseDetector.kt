@@ -37,7 +37,7 @@ class RecipientIdDatabaseDetector : Detector(), SourceCodeScanner {
           return
         }
 
-        val implementsReference = node.interfaces.any { it.qualifiedName == "org.thoughtcrime.securesms.database.RecipientIdDatabaseReference" }
+        val implementsReference = node.interfaces.any { it.qualifiedName == "org.gchat.securesms.database.RecipientIdDatabaseReference" }
         if (implementsReference) {
           return
         }
@@ -70,6 +70,6 @@ class RecipientIdDatabaseDetector : Detector(), SourceCodeScanner {
       implementation = Implementation(RecipientIdDatabaseDetector::class.java, JAVA_FILE_SCOPE)
     )
 
-    private val EXEMPTED_CLASSES = setOf("org.thoughtcrime.securesms.database.RecipientDatabase")
+    private val EXEMPTED_CLASSES = setOf("org.gchat.securesms.database.RecipientDatabase")
   }
 }

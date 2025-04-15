@@ -123,8 +123,8 @@
 
     <style name="TextSecure.LightActionBar.TabBar"
         parent="@style/Widget.AppCompat.ActionBar.TabBar">
-        <item name="android:background">@color/core_ultramarine</item>
-        <item name="background">@color/core_ultramarine</item>
+        <item name="android:background">@color/core_green_accent</item>
+        <item name="background">@color/core_green_accent</item>
         <item name="android:textColorPrimary">@color/white</item>
         <item name="android:textColorSecondary">#BFffffff</item>
         <item name="elevation">4dp</item>
@@ -137,12 +137,12 @@
         <item name="subtitleTextStyle">@style/TextSecure.SubtitleTextStyle.Conversation</item>
         <item name="actionOverflowButtonStyle">@style/Signal.Toolbar.Overflow.Conversation</item>
         <item name="android:actionOverflowButtonStyle">@style/Signal.Toolbar.Overflow.Conversation</item>
-        <item name="colorControlHighlight">@color/core_ultramarine</item>
-        <item name="android:colorControlHighlight" tools:ignore="NewApi">@color/core_ultramarine</item>
+        <item name="colorControlHighlight">@color/core_green_accent</item>
+        <item name="android:colorControlHighlight" tools:ignore="NewApi">@color/core_green_accent</item>
         <item name="colorControlNormal">@color/signal_text_toolbar_subtitle</item>
         <item name="android:colorControlNormal" tools:ignore="NewApi">@color/signal_text_toolbar_subtitle</item>
-        <item name="colorControlActivated">@color/core_ultramarine</item>
-        <item name="android:colorControlActivated" tools:ignore="NewApi">@color/core_ultramarine</item>
+        <item name="colorControlActivated">@color/core_green_accent</item>
+        <item name="android:colorControlActivated" tools:ignore="NewApi">@color/core_green_accent</item>
     </style>
 
     <style name="Signal.Toolbar.PaymentInfoCard" parent="@style/Widget.AppCompat.ActionBar">

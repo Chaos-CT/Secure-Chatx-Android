@@ -33,7 +33,7 @@
             android:textAppearance="@style/Signal.Text.BodyLarge"
             android:textColor="@color/signal_colorOnSurfaceVariant" />
 
-        <org.thoughtcrime.securesms.components.ClippedCardView
+        <org.gchat.securesms.components.ClippedCardView
             android:id="@+id/transfer_or_restore_fragment_transfer_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,9 +91,9 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </org.thoughtcrime.securesms.components.ClippedCardView>
+        </org.gchat.securesms.components.ClippedCardView>
 
-        <org.thoughtcrime.securesms.components.ClippedCardView
+        <org.gchat.securesms.components.ClippedCardView
             android:id="@+id/transfer_or_restore_fragment_restore_card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/transfer_or_restore_fragment_restore_header" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-        </org.thoughtcrime.securesms.components.ClippedCardView>
+        </org.gchat.securesms.components.ClippedCardView>
 
         <Space
             android:layout_width="0dp"

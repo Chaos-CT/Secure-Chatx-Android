@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/createProfileFragment"
-        android:name="org.thoughtcrime.securesms.profiles.edit.CreateProfileFragment"
+        android:name="org.gchat.securesms.profiles.edit.CreateProfileFragment"
         android:label="fragment_create_profile"
         tools:layout="@layout/create_profile_fragment">
 
@@ -20,12 +20,12 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim">
             <argument
                 android:name="group_id"
-                app:argType="org.thoughtcrime.securesms.groups.ParcelableGroupId"
+                app:argType="org.gchat.securesms.groups.ParcelableGroupId"
                 app:nullable="true" />
 
             <argument
                 android:name="group_avatar_media"
-                app:argType="org.thoughtcrime.securesms.mediasend.Media"
+                app:argType="org.gchat.securesms.mediasend.Media"
                 app:nullable="true" />
         </action>
 
@@ -43,7 +43,7 @@
 
     <fragment
         android:id="@+id/phoneNumberPrivacy"
-        android:name="org.thoughtcrime.securesms.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment"
+        android:name="org.gchat.securesms.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment"
         android:label="fragment_phone_number_privacy"
         tools:layout="@layout/dsl_settings_fragment" />
 

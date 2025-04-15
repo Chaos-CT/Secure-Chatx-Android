@@ -4,7 +4,7 @@ package signal;
 
 import "ResumableUploads.proto";
 
-option java_package        = "org.thoughtcrime.securesms.jobs.protos";
+option java_package        = "org.gchat.securesms.jobs.protos";
 option java_multiple_files = true;
 
 import SignalService.proto;

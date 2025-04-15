@@ -5,7 +5,7 @@
     app:startDestination="@id/badgeManageFragment">
     <fragment
         android:id="@+id/badgeManageFragment"
-        android:name="org.thoughtcrime.securesms.badges.self.overview.BadgesOverviewFragment"
+        android:name="org.gchat.securesms.badges.self.overview.BadgesOverviewFragment"
         android:label="fragment_manage_badges">
 
         <action
@@ -23,17 +23,17 @@
 
     <fragment
         android:id="@+id/featuredBadgeFragment"
-        android:name="org.thoughtcrime.securesms.badges.self.featured.SelectFeaturedBadgeFragment"
+        android:name="org.gchat.securesms.badges.self.featured.SelectFeaturedBadgeFragment"
         android:label="fragment_featured_badge" />
 
     <dialog
         android:id="@+id/expiredBadgeDialog"
-        android:name="org.thoughtcrime.securesms.badges.self.expired.ExpiredOneTimeBadgeBottomSheetDialogFragment"
+        android:name="org.gchat.securesms.badges.self.expired.ExpiredOneTimeBadgeBottomSheetDialogFragment"
         android:label="dialog_expired_badge">
 
         <argument
             android:name="badge"
-            app:argType="org.thoughtcrime.securesms.badges.models.Badge"
+            app:argType="org.gchat.securesms.badges.models.Badge"
             app:nullable="false" />
 
         <argument

@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    tools:parentTag="org.thoughtcrime.securesms.components.transfercontrols.TransferControlView">
+    tools:parentTag="org.gchat.securesms.components.transfercontrols.TransferControlView">
 
     <View
         android:id="@+id/secondary_background"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="@+id/primary_progress_view"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.components.transfercontrols.TransferProgressView
+    <org.gchat.securesms.components.transfercontrols.TransferProgressView
         android:id="@+id/secondary_progress_view"
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toEndOf="@+id/secondary_progress_view"
         app:layout_constraintTop_toTopOf="@+id/secondary_progress_view" />
 
-    <org.thoughtcrime.securesms.components.transfercontrols.TransferProgressView
+    <org.gchat.securesms.components.transfercontrols.TransferProgressView
         android:id="@+id/primary_progress_view"
         android:layout_width="@dimen/transfer_control_view_primary_background_height"
         android:layout_height="@dimen/transfer_control_view_primary_background_height"

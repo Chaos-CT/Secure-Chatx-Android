@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.components.InputAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.components.InputAwareConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.conversation.mutiselect.MultiselectRecyclerView
+        <org.gchat.securesms.conversation.mutiselect.MultiselectRecyclerView
             android:id="@+id/conversation_item_recycler"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -89,7 +89,7 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@id/status_bar_guideline" />
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.gchat.securesms.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="0dp"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -127,7 +127,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/core_white"
                 android:visibility="gone"
-                app:backgroundTint="@color/core_ultramarine"
+                app:backgroundTint="@color/core_green_accent"
                 app:cornerRadius="@dimen/material_button_full_round_corner_radius"
                 app:icon="@drawable/ic_video_solid_18"
                 app:iconGravity="textStart"
@@ -136,7 +136,7 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
+    </org.gchat.securesms.util.views.DarkOverflowToolbar>
 
     <FrameLayout
         android:id="@+id/conversation_banner_frame"
@@ -147,7 +147,7 @@
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
-        <org.thoughtcrime.securesms.conversation.v2.ConversationBannerView
+        <org.gchat.securesms.conversation.v2.ConversationBannerView
             android:id="@+id/conversation_banner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -180,11 +180,11 @@
                 android:inflatedId="@+id/banner_compose_view"
                 android:layout="@layout/conversation_list_banner_view" />
 
-        </org.thoughtcrime.securesms.conversation.v2.ConversationBannerView>
+        </org.gchat.securesms.conversation.v2.ConversationBannerView>
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.components.ConversationScrollToView
+    <org.gchat.securesms.components.ConversationScrollToView
         android:id="@+id/scroll_to_mention"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
         app:layout_goneMarginBottom="20dp"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.ConversationScrollToView
+    <org.gchat.securesms.components.ConversationScrollToView
         android:id="@+id/scroll_to_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -266,7 +266,7 @@
         app:layout_constraintEnd_toEndOf="@id/parent_end_guideline"
         app:layout_constraintStart_toStartOf="@id/parent_start_guideline" />
 
-    <org.thoughtcrime.securesms.conversation.v2.DisabledInputView
+    <org.gchat.securesms.conversation.v2.DisabledInputView
         android:id="@+id/conversation_disabled_input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -330,7 +330,7 @@
         android:foreground="@color/reactions_screen_dark_shade_color"
         android:visibility="gone" />
 
-    <org.thoughtcrime.securesms.components.menu.SignalBottomActionBar
+    <org.gchat.securesms.components.menu.SignalBottomActionBar
         android:id="@+id/conversation_bottom_action_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -352,4 +352,4 @@
         app:layout_constraintStart_toStartOf="@+id/parent_start_guideline"
         app:layout_constraintTop_toTopOf="@+id/status_bar_guideline" />
 
-</org.thoughtcrime.securesms.components.InputAwareConstraintLayout>
+</org.gchat.securesms.components.InputAwareConstraintLayout>

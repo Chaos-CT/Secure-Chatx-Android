@@ -2,7 +2,7 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:parentTag="org.thoughtcrime.securesms.components.webrtc.WebRtcCallView"
+    tools:parentTag="org.gchat.securesms.components.webrtc.WebRtcCallView"
     tools:viewBindingIgnore="true">
 
     <include layout="@layout/system_ui_guidelines" />
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="gone">
 
-        <org.thoughtcrime.securesms.components.webrtc.TextureViewRenderer
+        <org.gchat.securesms.components.webrtc.TextureViewRenderer
             android:id="@+id/call_screen_large_local_renderer"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
@@ -121,7 +121,7 @@
 
         <include layout="@layout/webrtc_call_participant_overflow_recycler" />
 
-        <org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout
+        <org.gchat.securesms.util.views.TouchInterceptingFrameLayout
             android:id="@+id/call_screen_pip_area"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -151,7 +151,7 @@
                     android:layout_height="match_parent" />
 
             </com.google.android.material.card.MaterialCardView>
-        </org.thoughtcrime.securesms.util.views.TouchInterceptingFrameLayout>
+        </org.gchat.securesms.util.views.TouchInterceptingFrameLayout>
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/webrtc_call_view_toolbar_no_text"

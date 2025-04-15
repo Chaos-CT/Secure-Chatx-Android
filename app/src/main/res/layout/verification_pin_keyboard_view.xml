@@ -3,7 +3,7 @@
        xmlns:tools="http://schemas.android.com/tools"
        tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.components.NumericKeyboardView
+    <org.gchat.securesms.components.NumericKeyboardView
             android:id="@+id/keyboard_view"
             android:keyBackground="@color/signal_colorSurface1"
             android:background="@color/signal_colorSurface1"
@@ -20,7 +20,7 @@
                  android:layout_height="96dp"
                  android:indeterminate="true"/>
 
-    <org.thoughtcrime.securesms.components.SquareImageView
+    <org.gchat.securesms.components.SquareImageView
             android:id="@+id/success"
             android:layout_width="96dp"
             android:layout_height="96dp"
@@ -31,7 +31,7 @@
             android:src="@drawable/symbol_check_24"
             android:tint="@color/core_white"/>
 
-    <org.thoughtcrime.securesms.components.SquareImageView
+    <org.gchat.securesms.components.SquareImageView
             android:id="@+id/failure"
             android:layout_width="96dp"
             android:layout_height="96dp"
@@ -41,7 +41,7 @@
             android:gravity="center_vertical"
             android:src="@drawable/symbol_x_white_48"/>
 
-    <org.thoughtcrime.securesms.components.SquareImageView
+    <org.gchat.securesms.components.SquareImageView
             android:id="@+id/locked"
             android:layout_width="96dp"
             android:layout_height="96dp"

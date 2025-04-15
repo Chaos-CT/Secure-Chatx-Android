@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.conversation.ConversationItem xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:viewBindingIgnore="true"
     xmlns:tools="http://schemas.android.com/tools"
@@ -34,7 +34,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble
+    <org.gchat.securesms.conversation.ConversationItemBodyBubble
         android:id="@+id/body_bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
             android:visibility="gone"
             tools:visibility="visible">
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.gchat.securesms.components.emoji.EmojiTextView
                 android:id="@+id/story_reacted_label"
                 style="@style/TextAppearance.Signal.Subtitle"
                 android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.components.QuoteView
+        <org.gchat.securesms.components.QuoteView
             android:id="@+id/quote_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
             android:layout_marginBottom="@dimen/message_bubble_bottom_padding"
             android:layout="@layout/conversation_item_sent_revealable" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/conversation_item_body"
             style="@style/Signal.Text.Body"
             android:layout_width="wrap_content"
@@ -181,7 +181,7 @@
             android:layout_marginBottom="20dp"
             android:layout="@layout/conversation_item_join_button" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <org.gchat.securesms.components.ConversationItemFooter
             android:id="@+id/conversation_item_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-        <org.thoughtcrime.securesms.components.ConversationItemFooter
+        <org.gchat.securesms.components.ConversationItemFooter
             android:id="@+id/conversation_item_sticker_footer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -215,9 +215,9 @@
             app:footer_reveal_dot_color="@color/signal_icon_tint_secondary"
             app:footer_text_color="@color/signal_text_secondary" />
 
-    </org.thoughtcrime.securesms.conversation.ConversationItemBodyBubble>
+    </org.gchat.securesms.conversation.ConversationItemBodyBubble>
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <org.gchat.securesms.components.AlertView
         android:id="@+id/indicators_parent"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -258,7 +258,7 @@
 
     </FrameLayout>
 
-    <org.thoughtcrime.securesms.reactions.ReactionsConversationView
+    <org.gchat.securesms.reactions.ReactionsConversationView
         android:id="@+id/reactions_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -268,4 +268,4 @@
         android:orientation="horizontal"
         app:rcv_outgoing="true" />
 
-</org.thoughtcrime.securesms.conversation.ConversationItem>
+</org.gchat.securesms.conversation.ConversationItem>

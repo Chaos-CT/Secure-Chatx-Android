@@ -164,7 +164,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/icon" />
 
-    <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+    <org.gchat.securesms.util.views.LearnMoreTextView
         android:id="@+id/username_description"
         style="@style/Signal.Text.BodyMedium"
         android:layout_width="0dp"
@@ -212,7 +212,7 @@
         app:tint="@color/signal_colorOnPrimaryContainer"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+    <org.gchat.securesms.util.views.CircularProgressMaterialButton
         android:id="@+id/username_submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -224,7 +224,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+    <org.gchat.securesms.util.views.CircularProgressMaterialButton
         android:id="@+id/username_delete_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -236,7 +236,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <org.thoughtcrime.securesms.components.ProgressCard
+    <org.gchat.securesms.components.ProgressCard
         android:id="@+id/username_progress_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

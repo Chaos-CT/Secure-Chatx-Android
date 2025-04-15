@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/privacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.PrivacySettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.privacy.PrivacySettingsFragment"
         android:label="privacy_settings_fragment">
 
         <argument
@@ -54,22 +54,22 @@
 
     <activity
         android:id="@+id/blockedUsersActivity"
-        android:name="org.thoughtcrime.securesms.blocked.BlockedUsersActivity"
+        android:name="org.gchat.securesms.blocked.BlockedUsersActivity"
         android:label="blocked_users_activity" />
 
     <fragment
         android:id="@+id/advancedPrivacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.advanced.AdvancedPrivacySettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.privacy.advanced.AdvancedPrivacySettingsFragment"
         android:label="advanced_privacy_settings_fragment" />
 
     <fragment
         android:id="@+id/phoneNumberPrivacySettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.pnp.PhoneNumberPrivacySettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.privacy.pnp.PhoneNumberPrivacySettingsFragment"
         android:label="phone_number_privacy_settings_fragment" />
 
     <fragment
         android:id="@+id/screenLockSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.screenlock.ScreenLockSettingsFragment"
+        android:name="org.gchat.securesms.components.settings.app.privacy.screenlock.ScreenLockSettingsFragment"
         android:label="screen_lock_settings_fragment">
         <action
             android:id="@+id/action_screenLockSettingsFragment_to_customScreenLockTimerSelectDialog"
@@ -78,7 +78,7 @@
 
     <dialog
         android:id="@+id/customScreenLockTimerSelectDialog"
-        android:name="org.thoughtcrime.securesms.components.settings.app.privacy.screenlock.CustomScreenLockTimerSelectDialog" />
+        android:name="org.gchat.securesms.components.settings.app.privacy.screenlock.CustomScreenLockTimerSelectDialog" />
 
     <include app:graph="@navigation/app_settings_expire_timer" />
 

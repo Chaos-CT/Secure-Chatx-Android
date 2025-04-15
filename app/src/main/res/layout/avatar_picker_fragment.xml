@@ -28,7 +28,7 @@
                 app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Signal.Circle"
                 tools:backgroundTint="#DEE3FF" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.gchat.securesms.components.emoji.EmojiTextView
                 android:id="@+id/avatar_picker_item_text"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -42,7 +42,7 @@
                 tools:ignore="SpUsage"
                 tools:text="AF" />
 
-            <org.thoughtcrime.securesms.components.ButtonStripItemView
+            <org.gchat.securesms.components.ButtonStripItemView
                 android:id="@+id/avatar_picker_camera"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/avatar_picker_item_image" />
 
-            <org.thoughtcrime.securesms.components.ButtonStripItemView
+            <org.gchat.securesms.components.ButtonStripItemView
                 android:id="@+id/avatar_picker_photo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
                 app:layout_constraintStart_toEndOf="@id/avatar_picker_camera"
                 app:layout_constraintTop_toBottomOf="@id/avatar_picker_item_image" />
 
-            <org.thoughtcrime.securesms.components.ButtonStripItemView
+            <org.gchat.securesms.components.ButtonStripItemView
                 android:id="@+id/avatar_picker_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

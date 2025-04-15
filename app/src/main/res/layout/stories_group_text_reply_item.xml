@@ -12,7 +12,7 @@
     android:paddingBottom="6dp"
     tools:viewBindingIgnore="true">
 
-    <org.thoughtcrime.securesms.components.AvatarImageView
+    <org.gchat.securesms.components.AvatarImageView
         android:id="@+id/avatar"
         android:layout_width="28dp"
         android:layout_height="28dp"
@@ -62,7 +62,7 @@
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.gchat.securesms.components.FromTextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Miles Morales" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.gchat.securesms.components.emoji.EmojiTextView
         android:id="@+id/body"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -133,7 +133,7 @@
         tools:text="Not sent, tap for details"
         tools:textColor="@color/signal_text_secondary" />
 
-    <org.thoughtcrime.securesms.components.DeliveryStatusView
+    <org.gchat.securesms.components.DeliveryStatusView
         android:id="@+id/delivery_status"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -144,7 +144,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/viewed_at_bottom_barrier"
         app:layout_constraintStart_toEndOf="@+id/viewed_at_end_barrier" />
 
-    <org.thoughtcrime.securesms.components.AlertView
+    <org.gchat.securesms.components.AlertView
         android:id="@+id/alert_view"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -168,7 +168,7 @@
         app:layout_constraintStart_toEndOf="@+id/bubble_end_barrier"
         app:layout_goneMarginEnd="0dp" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction"
         android:layout_width="28dp"
         android:layout_height="28dp"

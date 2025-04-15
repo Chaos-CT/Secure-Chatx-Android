@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/contact_header" />
 
-    <org.thoughtcrime.securesms.components.FromTextView
+    <org.gchat.securesms.components.FromTextView
         android:id="@+id/name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
         tools:drawableTint="@color/signal_icon_tint_secondary"
         tools:text="@sample/contacts.json/data/name" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.gchat.securesms.components.emoji.EmojiTextView
         android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

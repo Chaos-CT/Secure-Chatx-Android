@@ -10,7 +10,7 @@
     android:orientation="vertical"
     android:gravity="bottom">
 
-    <org.thoughtcrime.securesms.components.webrtc.CallReactionScrubber
+    <org.gchat.securesms.components.webrtc.CallReactionScrubber
         android:id="@+id/reaction_scrubber"
         android:layout_width="match_parent"
         android:layout_height="@dimen/calling_reaction_emoji_height"

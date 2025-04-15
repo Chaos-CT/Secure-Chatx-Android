@@ -143,7 +143,7 @@ Compared to the previous steps, this one is pretty easy. With your Android devic
 cd ~/reproducible-signal
 
 # Pull the APKs from the device
-adb shell pm path org.thoughtcrime.securesms | sed 's/package://' | xargs -I{} adb pull {} apks-from-device/
+adb shell pm path org.gchat.securesms | sed 's/package://' | xargs -I{} adb pull {} apks-from-device/
 ```
 
 If everything went well, your directory structure should now look something like this:
@@ -234,7 +234,7 @@ While your device is connected to your computer, run the following command to ch
 ```bash
 bundletool check-transparency \
   --mode=connected_device \
-  --package-name="org.thoughtcrime.securesms"
+  --package-name="org.gchat.securesms"
 ```
 
 (For other ways of verifying the code transparency fingerprint, you can check out the [official guide](https://developer.android.com/guide/app-bundle/code-transparency#verify_apk) on the Android Developers site.)

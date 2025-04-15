@@ -10,7 +10,7 @@
 
     <dialog
         android:id="@+id/progressCardDialogFragment"
-        android:name="org.thoughtcrime.securesms.components.ProgressCardDialogFragment"
+        android:name="org.gchat.securesms.components.ProgressCardDialogFragment"
         android:label="progress_card_dialog_fragment">
 
         <argument

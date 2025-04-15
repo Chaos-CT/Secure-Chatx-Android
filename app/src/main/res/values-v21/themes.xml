@@ -13,7 +13,7 @@
     <style name="TextSecure.DarkNoActionBar" parent="@style/TextSecure.BaseDarkNoActionBar">
         <item name="android:statusBarColor">@color/signal_colorBackground</item>
         <item name="android:navigationBarColor">@color/signal_colorBackground</item>
-        <item name="android:colorControlActivated">@color/core_ultramarine_light</item>
+        <item name="android:colorControlActivated">@color/core_green_accent_light</item>
     </style>
 
     <style name="TextSecure.DarkNoActionBar.StoryViewer">

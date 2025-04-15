@@ -25,9 +25,9 @@
         <item name="windowActionModeOverlay">true</item>
 
         <item name="theme_type">light</item>
-        <item name="colorPrimary">@color/core_ultramarine</item>
-        <item name="colorPrimaryDark">@color/core_ultramarine</item>
-        <item name="colorAccent">@color/core_ultramarine</item>
+        <item name="colorPrimary">@color/core_green_accent</item>
+        <item name="colorPrimaryDark">@color/core_green_accent</item>
+        <item name="colorAccent">@color/core_green_accent</item>
     </style>
 
     <style name="TextSecure.DarkNoActionBar" parent="@style/TextSecure.BaseDarkNoActionBar">
@@ -74,7 +74,7 @@
 
         <item name="theme_type">dark</item>
         <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
-        <item name="colorAccent">@color/core_ultramarine_light</item>
+        <item name="colorAccent">@color/core_green_accent_light</item>
     </style>
 
     <style name="Signal.Light.NoActionBar.Invite" parent="Base.Signal.Light.NoActionBar.Invite">
@@ -103,7 +103,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorAccent">@color/core_ultramarine</item>
+        <item name="colorAccent">@color/core_green_accent</item>
 
         <item name="android:textColorHint">#cc000000</item>
         <item name="android:windowBackground">@color/white</item>
@@ -121,7 +121,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionModeOverlay">true</item>
-        <item name="colorAccent">@color/core_ultramarine_light</item>
+        <item name="colorAccent">@color/core_green_accent_light</item>
 
         <item name="android:textColorHint">@color/white</item>
         <item name="android:windowBackground">@color/core_grey_95</item>
@@ -393,7 +393,7 @@
 
     <style name="TextSecure.DarkTheme.WebRTCCall">
         <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
-        <item name="android:statusBarColor" tools:ignore="NewApi">@color/core_ultramarine</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/core_green_accent</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
@@ -563,7 +563,7 @@
 
         <item name="android:textColorPrimary">@color/signal_colorOnSurface</item>
 
-        <item name="colorAccent">@color/core_ultramarine</item>
+        <item name="colorAccent">@color/core_green_accent</item>
 
         <item name="android:navigationBarColor" tools:ignore="NewApi">@color/signal_colorSurface1</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
@@ -578,7 +578,7 @@
 
         <item name="android:textColorPrimary">@color/signal_colorOnSurface</item>
 
-        <item name="colorAccent">@color/core_ultramarine_light</item>
+        <item name="colorAccent">@color/core_green_accent_light</item>
 
         <item name="android:navigationBarColor" tools:ignore="NewApi">@color/signal_colorSurface1</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>

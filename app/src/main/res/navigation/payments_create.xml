@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/createPaymentFragment"
-        android:name="org.thoughtcrime.securesms.payments.create.CreatePaymentFragment"
+        android:name="org.gchat.securesms.payments.create.CreatePaymentFragment"
         tools:layout="@layout/create_payment_fragment">
 
         <argument
             android:name="payee"
-            app:argType="org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable"
+            app:argType="org.gchat.securesms.payments.preferences.model.PayeeParcelable"
             app:nullable="false" />
 
         <argument
@@ -42,17 +42,17 @@
 
     <fragment
         android:id="@+id/editPaymentNoteFragment"
-        android:name="org.thoughtcrime.securesms.payments.create.EditNoteFragment"
+        android:name="org.gchat.securesms.payments.create.EditNoteFragment"
         tools:layout="@layout/edit_note_fragment" />
 
     <dialog
         android:id="@+id/confirmPaymentFragment"
-        android:name="org.thoughtcrime.securesms.payments.confirm.ConfirmPaymentFragment"
+        android:name="org.gchat.securesms.payments.confirm.ConfirmPaymentFragment"
         tools:layout="@layout/confirm_payment_fragment">
 
         <argument
             android:name="createPaymentDetails"
-            app:argType="org.thoughtcrime.securesms.payments.CreatePaymentDetails"
+            app:argType="org.gchat.securesms.payments.CreatePaymentDetails"
             app:nullable="false" />
 
         <argument

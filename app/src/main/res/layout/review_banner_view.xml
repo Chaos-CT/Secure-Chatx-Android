@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.profiles.spoofing.ReviewBannerView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.gchat.securesms.profiles.spoofing.ReviewBannerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/review_banner"
@@ -42,7 +42,7 @@
                     android:importantForAccessibility="no"
                     android:scaleType="centerInside" />
 
-                <org.thoughtcrime.securesms.components.AvatarImageView
+                <org.gchat.securesms.components.AvatarImageView
                     android:id="@+id/banner_top_left_avatar"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -64,7 +64,7 @@
                     tools:backgroundTint="@color/red_500"
                     tools:visibility="visible" />
 
-                <org.thoughtcrime.securesms.components.AvatarImageView
+                <org.gchat.securesms.components.AvatarImageView
                     android:id="@+id/banner_bottom_right_avatar"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
@@ -121,4 +121,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
-</org.thoughtcrime.securesms.profiles.spoofing.ReviewBannerView>
+</org.gchat.securesms.profiles.spoofing.ReviewBannerView>

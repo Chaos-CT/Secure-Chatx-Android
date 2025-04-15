@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@drawable/symbol_person_24"
-        tools:tint="@color/core_ultramarine" />
+        tools:tint="@color/core_green_accent" />
 
     <LinearLayout
         android:id="@+id/sticker_management_title_container"
@@ -43,7 +43,7 @@
         app:layout_constraintStart_toEndOf="@id/sticker_management_cover"
         app:layout_constraintTop_toTopOf="parent">
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/sticker_management_title"
             style="@style/Signal.Text.Body"
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             app:emoji_maxLength="45"
             tools:text="Spider-Man" />
 
-        <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+        <org.gchat.securesms.components.emoji.EmojiTextView
             android:id="@+id/sticker_management_author"
             style="@style/Signal.Text.Body"
             android:layout_width="match_parent"

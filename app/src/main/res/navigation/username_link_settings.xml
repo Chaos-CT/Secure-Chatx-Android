@@ -11,7 +11,7 @@
 
     <fragment
         android:id="@+id/usernameLinkSettingsFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsFragment">
+        android:name="org.gchat.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsFragment">
 
         <action
             android:id="@+id/action_usernameLinkSettingsFragment_to_usernameLinkQrColorPickerFragment"
@@ -28,10 +28,10 @@
 
     <fragment
         android:id="@+id/usernameLinkQrColorPickerFragment"
-        android:name="org.thoughtcrime.securesms.components.settings.app.usernamelinks.colorpicker.UsernameLinkQrColorPickerFragment" />
+        android:name="org.gchat.securesms.components.settings.app.usernamelinks.colorpicker.UsernameLinkQrColorPickerFragment" />
 
     <dialog
         android:id="@+id/usernameLinkShareBottomSheet"
-        android:name="org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkShareBottomSheet" />
+        android:name="org.gchat.securesms.components.settings.app.usernamelinks.main.UsernameLinkShareBottomSheet" />
 
 </navigation>

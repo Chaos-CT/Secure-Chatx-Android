@@ -8,7 +8,7 @@ syntax = "proto3";
 
 package signal;
 
-option java_package = "org.thoughtcrime.securesms.absbackup.protos";
+option java_package = "org.gchat.securesms.absbackup.protos";
 
 message SvrAuthToken {
   repeated string svr2Tokens = 1;

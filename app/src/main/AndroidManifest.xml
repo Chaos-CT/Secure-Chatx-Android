@@ -20,7 +20,7 @@
     <uses-feature android:name="android.hardware.telephony" android:required="false" />
 
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
-    <uses-permission android:name="org.thoughtcrime.securesms.ACCESS_SECRETS"/>
+    <uses-permission android:name="org.gchat.securesms.ACCESS_SECRETS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -104,6 +104,7 @@
                  android:allowBackup="true"
                  android:backupAgent=".absbackup.SignalBackupAgent"
                  android:theme="@style/TextSecure.LightTheme"
+                 android:debuggable="true"
                  android:largeHeap="true">
 
     <meta-data
@@ -639,7 +640,7 @@
               android:exported="false">
         <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.thoughtcrime.securesms.MainActivity" />
+                android:value="org.gchat.securesms.MainActivity" />
     </activity>
 
     <activity android:name=".conversation.BubbleConversationActivity"
@@ -790,7 +791,7 @@
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="org.thoughtcrime.securesms.MainActivity" />
+            android:value="org.gchat.securesms.MainActivity" />
     </activity>
 
     <activity
@@ -943,11 +944,11 @@
         <intent-filter>
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
-            <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact" />
+            <data android:mimeType="vnd.android.cursor.item/vnd.org.gchat.securesms.contact" />
         </intent-filter>
     </activity>
 
-    <activity android:name="org.thoughtcrime.securesms.webrtc.VoiceCallShare"
+    <activity android:name="org.gchat.securesms.webrtc.VoiceCallShare"
         android:exported="true"
         android:excludeFromRecents="true"
         android:permission="android.permission.CALL_PHONE"
@@ -958,13 +959,13 @@
         <intent-filter tools:ignore="AppLinkUrlError">
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
-            <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call" />
+            <data android:mimeType="vnd.android.cursor.item/vnd.org.gchat.securesms.call" />
         </intent-filter>
 
         <intent-filter tools:ignore="AppLinkUrlError">
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.DEFAULT" />
-            <data android:mimeType="vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall" />
+            <data android:mimeType="vnd.android.cursor.item/vnd.org.gchat.securesms.videocall" />
         </intent-filter>
 
     </activity>
@@ -1227,7 +1228,7 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.notifications.CLEAR"/>
+            <action android:name="org.gchat.securesms.notifications.CLEAR"/>
         </intent-filter>
     </receiver>
 
@@ -1235,7 +1236,7 @@
               android:enabled="true"
               android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.notifications.WEAR_REPLY"/>
+            <action android:name="org.gchat.securesms.notifications.WEAR_REPLY"/>
         </intent-filter>
     </receiver>
 
@@ -1294,7 +1295,7 @@
     <receiver android:name=".service.BootReceiver" android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            <action android:name="org.thoughtcrime.securesms.RESTART"/>
+            <action android:name="org.gchat.securesms.RESTART"/>
         </intent-filter>
     </receiver>
 
@@ -1319,7 +1320,7 @@
     <receiver android:name=".messageprocessingalarm.RoutineMessageFetchReceiver" android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED" />
-            <action android:name="org.thoughtcrime.securesms.action.PROCESS_MESSAGES" />
+            <action android:name="org.gchat.securesms.action.PROCESS_MESSAGES" />
         </intent-filter>
     </receiver>
 
@@ -1335,7 +1336,7 @@
         </intent-filter>
     </receiver>
 
-    <receiver android:name="org.thoughtcrime.securesms.jobs.ForegroundServiceUtil$Receiver" android:exported="false" />
+    <receiver android:name="org.gchat.securesms.jobs.ForegroundServiceUtil$Receiver" android:exported="false" />
 
     <receiver android:name=".service.PersistentConnectionBootListener" android:exported="false">
         <intent-filter>
@@ -1353,7 +1354,7 @@
 
     <receiver android:name=".notifications.DeleteNotificationReceiver" android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.DELETE_NOTIFICATION"/>
+            <action android:name="org.gchat.securesms.DELETE_NOTIFICATION"/>
         </intent-filter>
     </receiver>
 
@@ -1400,16 +1401,16 @@
     </receiver>
 
     <service
-        android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallManager$ActiveCallForegroundService"
+        android:name="org.gchat.securesms.service.webrtc.ActiveCallManager$ActiveCallForegroundService"
         android:exported="false"
         android:foregroundServiceType="dataSync|microphone|camera" />
 
-    <receiver android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallManager$ActiveCallServiceReceiver" android:exported="false">
+    <receiver android:name="org.gchat.securesms.service.webrtc.ActiveCallManager$ActiveCallServiceReceiver" android:exported="false">
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.DENY"/>
+            <action android:name="org.gchat.securesms.service.webrtc.ActiveCallAction.DENY"/>
         </intent-filter>
         <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.HANGUP"/>
+            <action android:name="org.gchat.securesms.service.webrtc.ActiveCallAction.HANGUP"/>
         </intent-filter>
     </receiver>
 

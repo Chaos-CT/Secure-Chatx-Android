@@ -19,9 +19,9 @@
         android:id="@+id/call_controls_floating_parent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="org.thoughtcrime.securesms.components.webrtc.SlideUpWithCallControlsBehavior">
+        app:layout_behavior="org.gchat.securesms.components.webrtc.SlideUpWithCallControlsBehavior">
 
-        <org.thoughtcrime.securesms.components.recyclerview.NoTouchingRecyclerView
+        <org.gchat.securesms.components.recyclerview.NoTouchingRecyclerView
             android:id="@+id/call_screen_reactions_feed"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -40,7 +40,7 @@
             tools:itemCount="2"
             tools:listitem="@layout/webrtc_call_reaction_recycler_item" />
 
-        <org.thoughtcrime.securesms.stories.viewer.reply.reaction.MultiReactionBurstLayout
+        <org.gchat.securesms.stories.viewer.reply.reaction.MultiReactionBurstLayout
             android:id="@+id/call_screen_reactions_container"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -151,7 +151,7 @@
             android:layout_marginTop="38dp"
             android:paddingBottom="48dp">
 
-            <org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutputToggleButton
+            <org.gchat.securesms.components.webrtc.WebRtcAudioOutputToggleButton
                 android:id="@+id/call_screen_speaker_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:contentDescription="@string/WebRtcCallView__toggle_speaker"
@@ -164,7 +164,7 @@
                 app:srcCompat="@drawable/webrtc_call_screen_speaker_toggle"
                 tools:visibility="visible" />
 
-            <org.thoughtcrime.securesms.components.AccessibleToggleButton
+            <org.gchat.securesms.components.AccessibleToggleButton
                 android:id="@+id/call_screen_video_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:background="@drawable/webrtc_call_screen_video_toggle"
@@ -176,7 +176,7 @@
                 app:layout_constraintStart_toEndOf="@id/call_screen_speaker_toggle"
                 tools:checked="true" />
 
-            <org.thoughtcrime.securesms.components.AccessibleToggleButton
+            <org.gchat.securesms.components.AccessibleToggleButton
                 android:id="@+id/call_screen_audio_mic_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:background="@drawable/webrtc_call_screen_mic_toggle"
@@ -187,7 +187,7 @@
                 app:layout_constraintHorizontal_chainStyle="packed"
                 app:layout_constraintStart_toEndOf="@id/call_screen_video_toggle" />
 
-            <org.thoughtcrime.securesms.components.AccessibleToggleButton
+            <org.gchat.securesms.components.AccessibleToggleButton
                 android:id="@+id/call_screen_audio_ring_toggle"
                 style="@style/WebRtcCallV2CompoundButton"
                 android:background="@drawable/webrtc_call_screen_ring_toggle"

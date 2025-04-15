@@ -8,7 +8,7 @@ syntax = "proto3";
 
 package signal;
 
-option java_package = "org.thoughtcrime.securesms.keyvalue.protos";
+option java_package = "org.gchat.securesms.keyvalue.protos";
 
 
 message LeastActiveLinkedDevice {

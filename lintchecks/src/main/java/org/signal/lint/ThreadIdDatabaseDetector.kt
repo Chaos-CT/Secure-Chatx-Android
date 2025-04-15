@@ -39,7 +39,7 @@ class ThreadIdDatabaseDetector : Detector(), SourceCodeScanner {
         }
 
         val implementsReference = node.interfaces.any { nodeInterface ->
-          "org.thoughtcrime.securesms.database.ThreadIdDatabaseReference" == nodeInterface.qualifiedName
+          "org.gchat.securesms.database.ThreadIdDatabaseReference" == nodeInterface.qualifiedName
         }
         if (implementsReference) {
           return
@@ -73,6 +73,6 @@ class ThreadIdDatabaseDetector : Detector(), SourceCodeScanner {
       implementation = Implementation(ThreadIdDatabaseDetector::class.java, JAVA_FILE_SCOPE)
     )
 
-    private val EXEMPTED_CLASSES = setOf("org.thoughtcrime.securesms.database.ThreadDatabase")
+    private val EXEMPTED_CLASSES = setOf("org.gchat.securesms.database.ThreadDatabase")
   }
 }

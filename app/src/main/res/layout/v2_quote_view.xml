@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:background="@color/signal_colorPrimary" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.gchat.securesms.components.emoji.EmojiTextView
         android:id="@+id/quote_author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         tools:text="Photo"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.gchat.securesms.components.emoji.EmojiTextView
         android:id="@+id/quote_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
         app:layout_constraintStart_toStartOf="@id/quote_thumbnail"
         app:layout_constraintTop_toTopOf="@id/quote_thumbnail" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/quote_missing_story_reaction_emoji"
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -159,7 +159,7 @@
         app:layout_constraintStart_toEndOf="@id/quote_bar"
         app:layout_constraintTop_toBottomOf="@id/content_barrier" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/quote_story_reaction_emoji"
         android:layout_width="32dp"
         android:layout_height="32dp"

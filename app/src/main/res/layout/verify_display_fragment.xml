@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:fillViewport="true">
 
-    <org.thoughtcrime.securesms.util.views.DarkOverflowToolbar
+    <org.gchat.securesms.util.views.DarkOverflowToolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/signal_m3_toolbar_height"
@@ -61,7 +61,7 @@
                 app:tabPaddingStart="10dp"
                 app:tabIndicatorHeight="0dp"/>
 
-            <org.thoughtcrime.securesms.util.views.LearnMoreTextView
+            <org.gchat.securesms.util.views.LearnMoreTextView
                 android:id="@+id/description"
                 style="@style/Signal.Text.BodyMedium"
                 android:layout_width="match_parent"

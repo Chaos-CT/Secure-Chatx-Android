@@ -8,7 +8,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_1"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -20,7 +20,7 @@
         tools:alpha="1"
         tools:translationY="0dp" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_2"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:alpha="1" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_3"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:alpha="1" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_4"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:alpha="1" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_5"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:alpha="1" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_6"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
@@ -75,7 +75,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:alpha="1" />
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiImageView
+    <org.gchat.securesms.components.emoji.EmojiImageView
         android:id="@+id/reaction_7"
         android:layout_width="32dp"
         android:layout_height="@dimen/calling_reaction_emoji_height"
